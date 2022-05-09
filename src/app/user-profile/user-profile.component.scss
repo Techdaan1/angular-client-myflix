@@ -1,0 +1,124 @@
+.user-profile {
+  padding-top: 20px;
+  background-color: #a52a2a;
+  height: 50%;
+  border: 1px solid white;
+}
+
+.profile-title {
+  background-color: black;
+  color: white;
+  margin-bottom: 8px;
+  padding-top: 8px;
+  justify-content: center;
+  border-radius: 25px;
+}
+
+.usercard {
+  border: 2px solid black;
+  height: 220px;
+  width: 350px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+}
+
+.mat-card-header {
+  background-color: black;
+  color: white;
+  margin-bottom: 8px;
+  padding-top: 8px;
+  justify-content: center;
+  border: 1.5px solid black;
+}
+
+.mat-card-subtitle {
+  color: white;
+}
+
+.usercard-greeting {
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+}
+
+.edit-button {
+  margin-right: 100px;
+  border-radius: 25px;
+  background-color: black;
+}
+
+.delete-button {
+  border-radius: 25px;
+  background-color: black;
+}
+
+p {
+  border-bottom: 1px dashed black;
+}
+
+.favorite-card {
+  margin: 10px;
+  width: 250px;
+  background-color: white;
+}
+
+.favorites-container {
+  background-color: #a52a2a;
+  color: white;
+  border: 1px solid white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.user-fav {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  background-color: black;
+  padding-bottom: 5px;
+  margin-bottom: 0.5px;
+}
+
+.img-container img {
+  width: 240px;
+  height: 300px;
+  margin: 7px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fav-header {
+  justify-content: center;
+  text-align: center;
+  height: 70px;
+}
+.fav-title {
+  font-size: 20px;
+}
+.fav-subtitle {
+  font-size: 12px;
+}
+.fav-action {
+  margin-top: 10px;
+  height: 10px;
+  display: flex;
+  border-top: solid 1px;
+}
+.fav-action-btn {
+  color: black;
+}
+
+.mat-icon-button {
+  position: absolute;
+  right: 3px;
+  top: 3px;
+}
+
+.remove-btn {
+  color: red;
+}
